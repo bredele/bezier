@@ -1,0 +1,33 @@
+{
+  "name": "bezier",
+  "version": "0.0.0",
+  "description": "n degree bezier curve",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bredele/bezier.git"
+  },
+  "keywords": [
+    "bezier",
+    "math",
+    "curve"
+  ],
+  "author": "Olivier Wietrich <olivier.wietrich@gmail.com> (http://github.com/bredele)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bredele/bezier/issues"
+  },
+  "homepage": "https://github.com/bredele/bezier",
+  "dependencies": {
+    "bernstein": "bredele/bernstein"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.4"
+  }
+}
