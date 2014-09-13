@@ -7,7 +7,18 @@ var bernstein = require('bernstein');
 
 
 /**
- * Expose 'Mod'
+ * Bezier curve
+ * n degree.
+ *
+ * Examples:
+ *
+ *   var cubic = bezier(1,2,3);
+ *   cubic(0);
+ *   cubic(0.5);
+ * 
+ * @params {Number}
+ * @return {Number}
+ * @api public
  */
 
 module.exports = function() {
